@@ -35,6 +35,9 @@ export class FadeOnProximity extends Behaviour implements UsdzBehaviour {
                 ));
             }
 
+  /*           const fadeAction = ActionBuilder.fadeAction(targetObj, this.fadeDuration, this.targetState);
+            fadeAction.multiplePerformOperation = "ignore"; */
+
             ext.addBehavior(new BehaviorModel("SetActiveOnProximity_" + this.gameObject.name,
                 TriggerBuilder.proximityToCameraTrigger(this.gameObject, this.distance),
                 ActionBuilder.fadeAction(targetObj, this.fadeDuration, this.targetState)
