@@ -2,7 +2,7 @@
 
 A simple way to animate your characters is by using a VR headset's own tracking capabilities. With eye tracking, hand tracking, and mouth movement estimation, the end result is a fully animated character from the waist up.
 
-This sample only showcases the result of the animation. The recorder itself is a separate Quest app.
+This sample only showcases the result of the animation. The recorder itself is a separate Quest app made by [prefrontal cortex](https://prefrontalcortex.de/en/).
 
 ## Avatar Recorder
 
